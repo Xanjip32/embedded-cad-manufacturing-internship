@@ -1,5 +1,8 @@
 # Embedded Systems, CAD & Digital Manufacturing — Internship Prep
 
+
+![Repo banner](./asset/bg.png)
+
 Hands-on preparation for a South Korea-based internship spanning embedded firmware, embedded hardware, CAD/3D design, digital manufacturing, and AI-assisted technical documentation. This repo tracks the full build-as-you-learn process: every project is written, wired, modeled, or printed by me — not copied from a tutorial and left untouched.
 
 ## Why this repo exists
