@@ -1,7 +1,6 @@
 # Embedded Systems, CAD & Digital Manufacturing — Internship Prep
 
-
-![Repo banner](./asset/bg.png)
+![Repo banner](./assets/bg.png)
 
 Hands-on preparation for a South Korea-based internship spanning embedded firmware, embedded hardware, CAD/3D design, digital manufacturing, and AI-assisted technical documentation. This repo tracks the full build-as-you-learn process: every project is written, wired, modeled, or printed by me — not copied from a tutorial and left untouched.
 
@@ -9,30 +8,40 @@ Hands-on preparation for a South Korea-based internship spanning embedded firmwa
 
 My internship's official course-matching table lists five required competency areas. Rather than complete generic coursework, I built one focused project per area, wrote the code/design myself, and documented the process the way I'd want to hand it to a teammate. This repo is both my proof of work and a self-contained learning path — if you're prepping for a similar internship or just getting into embedded/CAD/3D printing, you can follow the same order.
 
-## What's covered
-
-| Internship requirement | Folder | Core skill demonstrated |
-|---|---|---|
-| Embedded control (firmware) | [`embedded-firmware/`](./embedded-firmware) | C fundamentals → structs, pointers, dynamic memory, file I/O |
-| Embedded control (hardware) | [`embedded-hw/`](./embedded-hw) | Arduino — digital/analog I/O, sensors, actuators |
-| 3D design (CAD) | [`cad-design/`](./cad-design) | Fusion 360 — parametric modeling, assemblies, STL export |
-| Digital manufacturing | [`digital-manufacturing/`](./digital-manufacturing) | Slicing, print settings, FDM workflow |
-| AI utilization | woven into every folder's README | Used as a documentation/report-writing aid, not a code generator — see note below |
-| Capstone | [`final-project/`](./final-project) | Smart Study Station — combines all four areas in one working build |
-
 ## Repo structure
 
 ```
-embedded-mechatronics-internship/
-├── embedded-firmware/     C programming — grade tracker CLI (structs, pointers, file I/O)
-├── embedded-hw/           Arduino — LED circuits, sensors, servo control
-├── cad-design/            Fusion 360 — phone stand + Arduino enclosure, STL files
-├── digital-manufacturing/ Slicer settings, print comparisons, troubleshooting notes
-├── final-project/         Smart Study Station — dock + timer + LED + buzzer
-└── README.md
+embedded-cad-manufacturing-internship/
+├── src/                          # Actual projects & code
+│   ├── arduino/                  # Arduino projects
+│   │   ├── blinking-light/       # LED blink with serial read
+│   │   ├── traffic-light-pedestrian/  # Pedestrian crossing signal
+│   │   └── dimmer-switch/        # Analog dimmer control
+│   ├── c/                        # C programming
+│   │   ├── exercises/            # 17 progressive exercises (hello-world → bitmasks)
+│   │   └── calculator/           # Calculator project (Makefile, src/)
+│   └── cad/                      # CAD designs (Fusion 360)
+├── prep/                         # Internship prep curriculum
+│   ├── arduino-internship/       # 5-session Arduino prep (GPIO, ADC, PWM, interrupts, serial)
+│   ├── cad-design/               # 5-session CAD prep (sketches, 3D modeling, assemblies)
+│   ├── 3d-printing/              # 5-session 3D printing prep (slicer, settings, supports)
+│   └── ai-prompt-engineering/    # 5-session AI/prompt engineering prep
+├── docs/
+│   └── MASTER-PLAN.pdf           # Full internship plan
+├── assets/
+│   └── bg.png                    # Repo banner
+└── .gitignore
 ```
 
-Each folder has its own README with build steps, wiring diagrams or screenshots, and lessons learned — so a reviewer can go straight to the piece they care about without reading this whole file.
+## What's covered
+
+| Internship requirement | Path | Core skill demonstrated |
+|---|---|---|
+| Embedded control (firmware) | `src/c/` | C fundamentals → structs, pointers, dynamic memory, Makefile builds |
+| Embedded control (hardware) | `src/arduino/` | Digital/analog I/O, sensors, PWM, interrupts, serial communication |
+| 3D design (CAD) | `src/cad/` | Fusion 360 — parametric modeling, assemblies, STL export |
+| Digital manufacturing | `prep/3d-printing/` | Slicing, print settings, FDM workflow, post-processing |
+| AI utilization | `prep/ai-prompt-engineering/` | Prompt engineering, document/code workflows, iterative refinement |
 
 ## Tools & stack
 
@@ -44,18 +53,6 @@ Each folder has its own README with build steps, wiring diagrams or screenshots,
 | Manufacturing | FDM 3D printing, Cura slicer |
 | Version control | Git / GitHub |
 | Documentation | Markdown, AI-assisted drafting (Claude) — I write the content, AI helps structure and polish it |
-
-## Progress
-
-| Week | Focus | Status |
-|---|---|---|
-| 1 | C fundamentals | ⬜ In progress |
-| 2 | Arduino | ⬜ Not started |
-| 3 | Fusion 360 | ⬜ Not started |
-| 4 | 3D printing | ⬜ Not started |
-| 5 | Capstone build | ⬜ Not started |
-
-*(Updated as each week wraps — check individual folder READMEs for build logs and dated commits.)*
 
 ## A note on AI use
 
