@@ -5,7 +5,7 @@ Potentiometer controls three LEDs via PWM — turn the knob, all three dims toge
 ## Circuit
 
 <p align="center">
-  <img src="../../../assets/dimmer_switch.png" alt="Dimmer switch circuit — Arduino UNO, potentiometer, and three LEDs on a breadboard" width="600"/>
+  <img src="/public/assets/dimmer_switch.png" alt="Dimmer switch circuit — Arduino UNO, potentiometer, and three LEDs on a breadboard" width="600"/>
   <br/>
   <em>Figure 1 — Tinkercad circuit: potentiometer on A0, three LEDs on D9/D10/D11</em>
 </p>
