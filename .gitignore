@@ -24,3 +24,7 @@ Thumbs.db
 # Compiled binaries
 bin/
 build/
+
+# Superpowers plans & workspace
+.superpowers/
+docs/superpowers/
