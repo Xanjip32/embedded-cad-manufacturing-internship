@@ -1,5 +1,12 @@
 # 3D Modeling Projects — Fusion 360 Portfolio
 
+<div align="center">
+  <img src="cake_deisgn.png" alt="3D Modeling Cake Design" width="300" />
+  <p><em>Parametric 3D designs created in Autodesk Fusion 360</em></p>
+</div>
+
+---
+
 A collection of parametric 3D designs created in Autodesk Fusion 360, covering functional part design, assemblies, and real-world hardware projects.
 
 ## Designs
