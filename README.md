@@ -12,15 +12,24 @@ My internship's official course-matching table lists five required competency ar
 
 ```
 embedded-cad-manufacturing-internship/
-├── src/                          # Actual projects & code
-│   ├── arduino/                  # Arduino projects
-│   │   ├── blinking-light/       # LED blink with serial read
-│   │   ├── traffic-light-pedestrian/  # Pedestrian crossing signal
-│   │   └── dimmer-switch/        # Analog dimmer control
-│   ├── c/                        # C programming
+├── All projects/                 # Actual projects & code
+│   ├── arduino-projects/         # Arduino projects (9 main + 3 earlier versions)
+│   │   ├── 01-led-on-off/
+│   │   ├── 02-physical-interrupt/
+│   │   ├── 03-serial-communication/
+│   │   ├── 04-dimmer-switch/
+│   │   ├── 05-windshield-wipers/
+│   │   ├── 06-sports-robot/
+│   │   ├── 07-holiday-lights/
+│   │   ├── 08-electrical-instrument/
+│   │   ├── 09-light-wave-reader/
+│   │   ├── blinking-light/       # Earlier version
+│   │   ├── dimmer-switch/        # Earlier version
+│   │   └── traffic-light-pedestrian/  # Earlier version
+│   ├── C_prog practise and project/  # C programming
 │   │   ├── exercises/            # 17 progressive exercises (hello-world → bitmasks)
-│   │   └── calculator/           # Calculator project (Makefile, src/)
-│   └── cad/                      # CAD designs (Fusion 360)
+│   │   └── calculator/           # Calculator project
+│   └── 3d_modeling_porjects/     # CAD designs (Fusion 360)
 ├── prep/                         # Internship prep curriculum
 │   ├── arduino-internship/       # 5-session Arduino prep (GPIO, ADC, PWM, interrupts, serial)
 │   ├── cad-design/               # 5-session CAD prep (sketches, 3D modeling, assemblies)
@@ -37,9 +46,9 @@ embedded-cad-manufacturing-internship/
 
 | Internship requirement | Path | Core skill demonstrated |
 |---|---|---|
-| Embedded control (firmware) | `src/c/` | C fundamentals → structs, pointers, dynamic memory, Makefile builds |
-| Embedded control (hardware) | `src/arduino/` | Digital/analog I/O, sensors, PWM, interrupts, serial communication |
-| 3D design (CAD) | `src/cad/` | Fusion 360 — parametric modeling, assemblies, STL export |
+| Embedded control (firmware) | `All projects/C_prog practise and project/` | C fundamentals → structs, pointers, dynamic memory, Makefile builds |
+| Embedded control (hardware) | `All projects/arduino-projects/` | Digital/analog I/O, sensors, PWM, interrupts, serial communication |
+| 3D design (CAD) | `All projects/3d_modeling_porjects/` | Fusion 360 — parametric modeling, assemblies, STL export |
 | Digital manufacturing | `prep/3d-printing/` | Slicing, print settings, FDM workflow, post-processing |
 | AI utilization | `prep/ai-prompt-engineering/` | Prompt engineering, document/code workflows, iterative refinement |
 
