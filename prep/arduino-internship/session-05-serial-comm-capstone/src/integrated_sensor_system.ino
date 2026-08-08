@@ -1,9 +1,9 @@
 /*
   Session 5 Capstone — Integrated Sensor System
   --------------------------------------------
-  Combines every curriculum item from the internship's 임베디드 제어(HW) row:
-  MCU 구조 (implicit), GPIO, ADC/PWM, 인터럽트, 통신 (Serial)
-  On-site tasks demonstrated: 아두이노 회로 구성 / 센서 연동 / 시리얼 통신
+  Combines every curriculum item from the internship's Embedded Control (HW) (임베디드 제어) row:
+  MCU Structure (MCU 구조) (implicit), GPIO, ADC/PWM, Interrupt (인터럽트), Communication (통신) (Serial)
+  On-site tasks demonstrated: Arduino Circuit Configuration (아두이노 회로 구성) / Sensor Integration (센서 연동) / Serial Communication (시리얼 통신)
 
   Wiring (see schematic/circuit-diagram.svg):
     Status LED -> D8  (through 220ohm resistor) -> GND        [GPIO]
